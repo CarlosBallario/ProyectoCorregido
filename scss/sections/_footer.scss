@@ -1,0 +1,41 @@
+/* footer */
+
+.footer{
+    // background-color:rgb(107, 114, 181); 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.footer ul{
+    list-style-type: none;
+    padding: 5px;
+}
+.footer li{
+    padding: 2px;
+    display: inline-block;
+}
+.firma{
+    text-align: center;
+    font-family: 'Tangerine', cursive;  
+    text-align: center; 
+}
+.footer-servicios{
+    text-decoration: none;
+    color: white;
+}
+.footer-soluciones{
+    text-decoration: none;
+    color: white;
+}
+.footer-recursos{
+    text-decoration: none;
+    color: white; 
+}
+.footer-nosotros{
+    text-decoration: none;
+    color: white;
+}  

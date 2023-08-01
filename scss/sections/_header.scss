@@ -1,0 +1,95 @@
+/* Header index */
+.te {
+    width: 30px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.header {
+    list-style-type: none;
+    text-transform: uppercase;
+    // background-color: azure;
+    box-shadow: 2px 2px 15px rgb(115, 115, 116);
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    border-radius: 10px;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: rgb(35, 37, 42);
+}
+
+.correo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.linkedin {
+    background-color: rgb(28, 151, 223);
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.instagram {
+    background-color: rgb(233, 73, 134);
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.facebook {
+    background-color: rgb(113, 113, 233);
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.header-hijo div {
+    // background-color: rgb(107, 114, 181);
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-link:hover {
+    background-color: rgb(222, 241, 235);
+    border-radius: 12px;
+}
+
+.redes-sociales a:hover {
+    color: blanchedalmond;
+}
+
+.dropdown-menu a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width:838px) {
+    .header-hijo div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

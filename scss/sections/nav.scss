@@ -1,0 +1,150 @@
+/* Main Index */
+
+.main-index img {
+    width: 60%;
+    margin-top: 20px;
+}
+.main-index {
+    text-align: center;
+    margin-top: 20px;
+}
+.main-index h1 {
+    color:$color-texto;
+}
+.edit {
+    color: $color-texto;
+}
+.main-index .bienvenidos {
+    margin-top: 20px;
+}
+
+
+/* Blog main */
+
+.img-blog {
+    background-image: url(../recursos/blog.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.main-blog {
+    text-align: center;
+}
+.videos-blog iframe{
+    width: 50%;
+    height: 400px; ;
+}
+.main-blog h1{
+    color: black;
+    margin-top: 20px;
+}
+.videos-blog h4{
+    color: rgb(55, 55, 243);
+    margin: 20px;
+}
+.videos-blog h3{
+    color: black;
+    margin-top: 20px; 
+}
+.videos-blog{
+    margin-bottom: 30px;
+}
+
+/* Nosotros main */
+
+.main-nosotros{
+    text-align: center;
+}
+.main-nosotros img {
+    width: 60%;
+    margin-top: 20px;
+}
+.main-nosotros h1 {
+    color: rgb(107, 114, 181);
+    margin-top: 20px;
+}
+.main-nosotros h2{
+    color: black;
+    margin-top: 20px;
+}  
+.edit-1{
+    color: rgb(107, 114, 181);
+}
+.edit-2{
+    color: rgb(107, 114, 181);
+    font-weight:bold ;
+}
+.edit-3{
+    color: rgb(107, 114, 181);
+}
+
+
+/* Servicios main */
+
+.main-servicios{
+    text-align: center;
+}
+.main-servicios img{
+    width: 60%;
+    margin-top: 20px;
+}
+.main-servicios h1 {
+    color: rgb(107, 114, 181);
+    margin-top: 20px;
+}
+.bienvenidos-2{
+    color: rgb(107, 114, 181);
+    margin-top: 20px;
+}
+.main-servicios small{
+    color: rgb(0, 1, 8);
+    font-weight:bold ;
+}
+.main-servicios h2 {
+    color: rgb(107, 114, 181);
+    margin-top: 20px;
+}
+.publicidad{
+    color: rgb(107, 114, 181);
+    font-weight:bold ;
+    margin-top: 20px;
+}
+
+/* main Contacto */
+
+.main-contacto{
+    text-align: center;
+}
+.main-contacto img{
+    width: 60%;
+    margin-top: 20px;
+}
+.main-contacto h1{
+    color: black;
+    margin-top: 20px;
+}
+.main-contacto h2{
+    color: black;
+    margin-top: 20px;
+}
+.main-contacto h3{
+    color: rgb(107, 114, 181);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img-contacto {
+    background-image: url(../recursos/contacto.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.container{
+    margin-bottom: 30px;
+}
