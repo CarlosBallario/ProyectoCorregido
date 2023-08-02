@@ -10,11 +10,9 @@
 .header {
     list-style-type: none;
     text-transform: uppercase;
-    // background-color: azure;
+   
     box-shadow: 2px 2px 15px rgb(115, 115, 116);
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
+
     border-radius: 10px;
 }
 
@@ -61,8 +59,7 @@
 }
 
 .header-hijo div {
-    // background-color: rgb(107, 114, 181);
-    /* border: 2px solid; */
+
     display: flex;
     flex-direction: row;
     justify-content: flex-end;

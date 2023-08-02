@@ -141,9 +141,6 @@
   list-style-type: none;
   text-transform: uppercase;
   box-shadow: 2px 2px 15px #737374;
-  /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
   border-radius: 10px; }
 
 .header a {
@@ -182,7 +179,6 @@
   border-radius: 5px; }
 
 .header-hijo div {
-  /* border: 2px solid; */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
