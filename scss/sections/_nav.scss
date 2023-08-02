@@ -1,12 +1,14 @@
 /* Main Index */
 
 .main-index img {
-    width: 60%;
+    width: $tam-img;
     margin-top: 20px;
 }
 .main-index {
     text-align: center;
     margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .main-index h1 {
     color:$color-texto;
@@ -57,9 +59,16 @@
 
 .main-nosotros{
     text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
+.article-nos{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 .main-nosotros img {
-    width: 60%;
+    width: $tam-img;
     margin-top: 20px;
 }
 .main-nosotros h1 {
@@ -86,9 +95,11 @@
 
 .main-servicios{
     text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .main-servicios img{
-    width: 60%;
+    width: $tam-img;
     margin-top: 20px;
 }
 .main-servicios h1 {
@@ -150,3 +161,4 @@
     background-color: #edf9f9;
     border-radius: 20px;
 }
+
