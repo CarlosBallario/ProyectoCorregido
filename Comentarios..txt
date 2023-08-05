@@ -1,0 +1,18 @@
+Comentarios:
+
+1- Se posee una estructura en todos los archivos HTML, recorda no dejar código comentado ya que se considera una mala practica. CORREGIDO.
+2- Se hizo uso correcto de variables y partials, pero recorda que se debe anidar en algún sector del código. CORREGIDO.
+3- Los enlaces entre secciones están bien desde el index a los demás archivos HTML, pero desde la carpeta pages no son correctos ya que al colocar la ruta de esta forma "../pages/contacto.html" se sale de la carpeta para volver a entrar lo cual no seria correcto, siempre hablando de los archivos dentro de la carpeta pages, lo correcto seria colocar la ruta así "./contacto". CORREGIDO.
+4- El responsive esta muy bien en cada una de las secciones, revisa que en la sección blog el menú hamburguesa no se despliega. CORREGIDO.
+5. Recorda que todo elemento utilizado de Bootstrap se debe modificar para que posea tus estilos y no lo de por defecto de este framework (esto sucede en el formulario el cual te aconsejo centrarlo y no dejarlo hacia el lado izquierdo). CORREGIDO.
+6. Y revisa que en todas las secciones posees un leve scroll horizontal para dispositivos Desktop. NO PUDIMOS ENCONTRAR DONDE ESTÁ ESTE ERROR. VOY A TRATAR DE HACERLO PARA LA ENTREGA FINAL.
+
+
+Volví a subir todo a Github funcionando correctamente el archivo .gitignore.
+Con respecto a la Web, le estoy agregando modificaciones, mejorando la estética, aplicando mas conceptos de los aprendidos para la entrega final.
+
+Link de Github:
+
+https://github.com/CarlosBallario/ProyectoCorregido.git
+https://github.com/CarlosBallario/ProyectoCorregido/deployments/activity_log?environment=github-pages
+https://carlosballario.github.io/ProyectoCorregido/
